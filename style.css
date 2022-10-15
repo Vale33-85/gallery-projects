@@ -1,0 +1,175 @@
+/*Main Title*/
+h1{
+  text-align:center;
+  font-size:58px;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin: 0 auto;
+}
+
+.box{
+  position:relative;
+  height:350px;
+  width:400px;
+  margin:20px;
+}
+.box:hover{
+  flex-grow: 0.1;
+  transition:ease-in;
+  margin-top: 15px;
+}
+.first{
+  background-image: url('images/recepcao.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.second{
+  background-image: url('images/img-fundo.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.third{
+  background-image: url('images/img-myrtle-ave.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fourth{
+  background-image: url('images/finnish.jpeg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Button*/
+ 
+.btn{
+  margin-left: 87% ;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border:none; 
+}
+
+.btn:hover{
+  background-color:rgb(255, 255, 255);
+  cursor:pointer;
+  border: 1px solid;
+}
+
+.plus-icon{
+  height: 42px;
+}
+
+
+
+/* First Modal. The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position:relative;/* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: -350px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+   
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: auto;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  height:60%;
+}
+.content h2{
+    padding: 5px;
+}
+.content p{
+    padding: 5px;
+}
+.content button{
+    width: 150px;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin-left: 5px;
+}
+.content button:hover{
+    border: 1px solid;
+}
+.content a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*close second modal*/
+.closetwo {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closetwo:hover,
+.closetwo:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*close third modal*/
+
+.closet {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closet:hover,
+.closet:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+ /* close fourfh modal*/
+ .closeq {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeq:hover,
+.closeq:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*c*/
